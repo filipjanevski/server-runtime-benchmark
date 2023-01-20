@@ -85,12 +85,12 @@ Actix Version 4.2.1
 Command:
 
 ```bash
-cargo run
+cargo run --release
 ```
 
 # Results
 
 |              | Bun       | Deno      | Node     | Node+Express | Go        | Go+Fiber  | Rust+Actix |
 | ------------ | --------- | --------- | -------- | ------------ | --------- | --------- | ---------- |
-| Requests/sec | 228997.33 | 103203.95 | 88899.06 | 21940.37     | 212955.97 | 238616.66 | 122309.90  |
-| Transfer/sec | 27.95MB   | 13.48MB   | 12.97MB  | 5.02MB       | 26.20MB   | 29.36MB   | 10.26MB    |
+| Requests/sec | 228997.33 | 103203.95 | 88899.06 | 21940.37     | 212955.97 | 238616.66 | 224502.10  |
+| Transfer/sec | 27.95MB   | 13.48MB   | 12.97MB  | 5.02MB       | 26.20MB   | 29.36MB   | 18.84MB    |
